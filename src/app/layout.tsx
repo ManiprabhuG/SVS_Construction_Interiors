@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | SVS Constructions",
   },
   description:
-    "Leading residential construction company in Sivakasi & Tamil Nadu. Turnkey home building and labour contracts starting at ₹620/sq.ft.",
+    "Leading residential house construction company in Sivakasi, Virudhunagar & Tamil Nadu. Turnkey home building, civil contracting, and labour contract services starting at ₹620/sq.ft. Book site consultation today!",
   keywords: [
     "Construction Company in Sivakasi",
     "Residential Construction in Sivakasi",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SVS Constructions | Best House Builders in Sivakasi",
     description:
-      "Residential construction specialists in Sivakasi & Tamil Nadu. Affordable Labour contracts starting at ₹620/sq.ft.",
+      "Top residential house builders in Sivakasi, Virudhunagar & Tamil Nadu. Affordable turnkey home construction & labour contracts starting at ₹620/sq.ft with guaranteed handover.",
     url: "https://svsconstructions.com",
     siteName: "SVS Constructions & Interiors",
     images: [
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "SVS Constructions | House Builders Sivakasi",
     description:
-      "Affordable residential construction and civil contracts across Tamil Nadu starting at ₹620/sq.ft.",
+      "Leading residential construction & civil contracting company in Sivakasi, Virudhunagar & Tamil Nadu. Labour contract construction starting at ₹620/sq.ft. Book consultation!",
     images: ["/images/logo.jpg"],
   },
   robots: {
