@@ -7,16 +7,21 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingUtilities } from "@/components/common/FloatingUtilities";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { GoogleAnalytics } from "@/components/seo/GoogleAnalytics";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "SVS Constructions & Interiors | Best House Builders in Sivakasi & Tamil Nadu",
+  title: {
+    default: "SVS Constructions | Best House Builders in Sivakasi",
+    template: "%s | SVS Constructions",
+  },
   description:
-    "Leading residential construction company in Sivakasi, Virudhunagar & Tamil Nadu. Labour contract construction starting at ₹620/sq.ft. Civil works, tiling, plumbing, electrical & interiors.",
+    "Leading residential construction company in Sivakasi & Tamil Nadu. Turnkey home building and labour contracts starting at ₹620/sq.ft.",
   keywords: [
     "Construction Company in Sivakasi",
     "Residential Construction in Sivakasi",
@@ -30,9 +35,17 @@ export const metadata: Metadata = {
     "Construction Services Tamil Nadu",
   ],
   authors: [{ name: "SVS Constructions & Interiors" }],
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+  },
   metadataBase: new URL("https://svsconstructions.com"),
   openGraph: {
-    title: "SVS Constructions & Interiors | Quality Homes in Tamil Nadu",
+    title: "SVS Constructions | Best House Builders in Sivakasi",
     description:
       "Residential construction specialists in Sivakasi & Tamil Nadu. Affordable Labour contracts starting at ₹620/sq.ft.",
     url: "https://svsconstructions.com",
@@ -50,7 +63,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SVS Constructions & Interiors | House Builders Sivakasi",
+    title: "SVS Constructions | House Builders Sivakasi",
     description:
       "Affordable residential construction and civil contracts across Tamil Nadu starting at ₹620/sq.ft.",
     images: ["/images/logo.jpg"],
@@ -70,8 +83,11 @@ export default function RootLayout({
     <html lang="en" className={inter.variable} suppressHydrationWarning>
       <head>
         <JsonLd />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/icon.svg" />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
+        <GoogleAnalytics />
         <ThemeProvider>
           <LanguageProvider>
             <Navbar />
