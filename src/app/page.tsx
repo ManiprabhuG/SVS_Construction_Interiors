@@ -84,9 +84,9 @@ export default function Home() {
       title: "Contemporary Elevation Residence",
       location: "Madurai",
       category: "Residential",
-      status: "Ongoing",
+      status: "Completed",
       area: "2,850 sq.ft",
-      completion: "In Progress",
+      completion: "Mar 2026",
       image: "/images/gallery-3.jpg",
     },
     {
