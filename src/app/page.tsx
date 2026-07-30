@@ -154,9 +154,9 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight"
             >
-              Building Quality Homes with{" "}
+              SVS Constructions: Premier{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-300">
-                Trust & Excellence
+                Labour Contract & Building Services
               </span>
             </motion.h1>
 
@@ -297,9 +297,9 @@ export default function Home() {
             <h2 className="text-xs font-bold text-sky-600 dark:text-sky-400 uppercase tracking-widest">
               SVS Advantage
             </h2>
-            <p className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-              {t.whyUs.title}
-            </p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
+              Why Choose SVS Constructions for Labour Contract & Building Services in Sivakasi
+            </h2>
             <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base">
               {t.whyUs.subtitle}
             </p>
@@ -341,7 +341,7 @@ export default function Home() {
                 Comprehensive Expertise
               </span>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-                {t.servicesOverview.title}
+                Turnkey Civil Engineering & Labour Contract Services in Sivakasi
               </h2>
               <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base">
                 {t.servicesOverview.subtitle}
@@ -400,7 +400,7 @@ export default function Home() {
                 Our Portfolio
               </span>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight mt-2">
-                {t.projects.title}
+                Featured House Construction & Building Contract Projects
               </h2>
               <p className="text-slate-600 dark:text-slate-400 text-sm mt-1">
                 {t.projects.subtitle}
@@ -517,7 +517,7 @@ export default function Home() {
               Client Feedback
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-              {t.testimonials.title}
+              Client Feedback on SVS Constructions Labour & Building Services
             </h2>
             <p className="text-slate-600 dark:text-slate-400 text-sm">
               {t.testimonials.subtitle}
@@ -566,7 +566,7 @@ export default function Home() {
           </span>
 
           <h2 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-            {t.ctaSection.title}
+            Learn More & Book Your House Labour Contract Consultation in Sivakasi
           </h2>
 
           <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto">

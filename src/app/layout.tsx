@@ -17,12 +17,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "SVS Constructions | Best House Builders in Sivakasi",
+    default: "SVS Constructions | Labour Contract & Services Sivakasi",
     template: "%s | SVS Constructions",
   },
   description:
-    "Leading residential house construction company in Sivakasi, Virudhunagar & Tamil Nadu. Turnkey home building, civil contracting, and labour contract services starting at ₹620/sq.ft. Book site consultation today!",
+    "SVS Constructions offers premier residential house building, civil engineering, and labour contract services in Sivakasi & Tamil Nadu starting at ₹620/sq.ft. Learn more & book site consultation!",
   keywords: [
+    "SVS Constructions",
+    "Labour Contract Services",
     "Construction Company in Sivakasi",
     "Residential Construction in Sivakasi",
     "Building Contractors in Sivakasi",
@@ -37,17 +39,18 @@ export const metadata: Metadata = {
   authors: [{ name: "SVS Constructions & Interiors" }],
   icons: {
     icon: [
-      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
     ],
     apple: [
-      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/apple-touch-icon.png" },
     ],
   },
   metadataBase: new URL("https://svsconstructions.com"),
   openGraph: {
-    title: "SVS Constructions | Best House Builders in Sivakasi",
+    title: "SVS Constructions | Labour Contract & Services Sivakasi",
     description:
-      "Top residential house builders in Sivakasi, Virudhunagar & Tamil Nadu. Affordable turnkey home construction & labour contracts starting at ₹620/sq.ft with guaranteed handover.",
+      "Top residential house builders in Sivakasi & Tamil Nadu. Affordable turnkey home construction & labour contract services starting at ₹620/sq.ft with guaranteed handover.",
     url: "https://svsconstructions.com",
     siteName: "SVS Constructions & Interiors",
     images: [
@@ -63,9 +66,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SVS Constructions | House Builders Sivakasi",
+    title: "SVS Constructions | Labour Contract & Building Services",
     description:
-      "Leading residential construction & civil contracting company in Sivakasi, Virudhunagar & Tamil Nadu. Labour contract construction starting at ₹620/sq.ft. Book consultation!",
+      "SVS Constructions offers turnkey home building & labour contract services in Sivakasi & Tamil Nadu starting at ₹620/sq.ft. Learn more and book site consultation today!",
     images: ["/images/logo.jpg"],
   },
   robots: {
@@ -83,8 +86,9 @@ export default function RootLayout({
     <html lang="en" className={inter.variable} suppressHydrationWarning>
       <head>
         <JsonLd />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/icon.svg" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
         <GoogleAnalytics />
