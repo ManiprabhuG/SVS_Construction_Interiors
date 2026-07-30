@@ -21,6 +21,19 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     }
   }, []);
 
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      document.documentElement.lang = language;
+      if (language === "ta") {
+        document.documentElement.classList.add("lang-ta");
+        document.documentElement.setAttribute("data-lang", "ta");
+      } else {
+        document.documentElement.classList.remove("lang-ta");
+        document.documentElement.setAttribute("data-lang", "en");
+      }
+    }
+  }, [language]);
+
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
     localStorage.setItem("svs_lang", lang);

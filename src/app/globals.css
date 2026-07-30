@@ -12,6 +12,12 @@
   }
 }
 
+/* Tamil font size scaling (1.2x smaller for Tamil text) */
+html.lang-ta,
+html[data-lang="ta"] {
+  font-size: 83.333%; /* 100% / 1.2 = 83.333% font size scaling */
+}
+
 /* Custom Glassmorphism Utility */
 .glass-card {
   @apply bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border border-slate-200/60 dark:border-slate-800/60 shadow-xl;
