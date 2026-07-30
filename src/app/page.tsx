@@ -120,7 +120,7 @@ export default function Home() {
   return (
     <div className="overflow-x-hidden">
       {/* HERO SECTION */}
-      <section className="relative min-h-[92vh] flex items-center justify-center pt-24 pb-16 bg-slate-950 text-white">
+      <section className="relative min-h-[92vh] flex items-center justify-center pt-24 pb-32 sm:pb-40 bg-slate-950 text-white">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -134,7 +134,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-sky-950/20 mix-blend-overlay" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-8 sm:mb-14">
           <div className="lg:col-span-7 space-y-6">
             {/* Price Badge */}
             <motion.div
